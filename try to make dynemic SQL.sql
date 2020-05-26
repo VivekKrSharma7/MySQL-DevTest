@@ -73,6 +73,6 @@ END$$
 DELIMITER ;
 
 
-#CALL tempProc;
+#CALL tempProc; vivek
 #select brand_name,count(*) from DWH.dwh_brands_desks_operators_temp group by brand_name order by 1;
 #select brand_name,count(*) from DWH.dwh_brands_desks_operators group by brand_name order by 1;
